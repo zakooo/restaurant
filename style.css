@@ -6,205 +6,129 @@ body{
  margin:0px;
  padding:0px;
 }
-header{
-  background-color:#F1F1F1;
-}
 .container{
   width:70%;
-  margin:0px auto;
+  margin:0px auto
 }
-header .container h1{
-  text-align:center;
-  font-family: 'Poor Story', cursive;
-  font-size:40px;
-  margin:0px
+.header{
+  background-color:#eb3b5a;
+  display:flex;
+  justify-content: space-between
 }
-header .container ul{
+.header h1{
+  margin-left:20px
+}
+.header nav ul{
   list-style-type:none;
+  margin:30px
 }
-header .container ul li{
+.header nav ul li{
   display:inline;
-  margin-left:60px;
-  color:gray;
-  font-family: 'Jua', sans-serif;
-  text-transform:uppercase;
+  font-family:roboto;
+  padding:20px;
+  font-size:20px
 }
-.head{
-  text-align:center;
-  min-height:350px;
-  background-image:url(https://bellevuewiesen.com/wp-content/uploads/2015/08/restaurant-4.jpg);
+.header nav ul li:hover{
+  color:white;
+  border:solid 2px white
+}
+header{
+  background-image:url(header2.png);
   background-size:cover;
-  margin-bottom:20px
-}
-.head .container div{
-  width:60%;
-  margin:0px auto;
-  padding-top:40px;
-  color:white
-}
-.head .container div p{
-  font-family: 'Roboto', sans-serif;
-}
-.head .container div h1{
-  font-family: 'Poor Story', cursive;
-  font-size:40px;
-  text-transform:uppercase;
-}
-.head .container div button{
-  width:140px;
-  height:40px;
-  background-color:#FF5252;
-  border-radius:5px;
-  border:none;
-  color:white;
-  font-size:15px
-}
-.details  .number{
-  display:flex;
-  margin-left:70px
-}
-.details .number img{
-  width:30%;
-  height:100px;
-  margin-top:25px
-}
-#order{
-  background-color: #FF5252;
   text-align:center;
+  height:450px
+}
+header p{
   color:white;
-  width:30%;
-  height:180px;
-  font-family: 'Roboto', sans-serif;
-}
-#order button{
-  border:none;
-  border-radius:5px;
-  background-color:white;
-  color:#FF5252;
   text-transform:uppercase;
-  padding:10px
+  font-family:roboto;
+  font-size:55px;
+  line-height:95px;
+  margin-top:0px
 }
-#call{
- line-height:20px;
- background-color:lightgrey;
- color:black
+header button{
+ background-color:#eb3b5a;
+ padding:15px 25px;
+ color:black;
+ text-transform:uppercase;
+ font-family:roboto;
+ border:none;
+ border-radius:5px
+
 }
-.time{
+header button:hover{
+  color:white;
+  border:solid 2px white
+}
+article .menu{
   display:flex;
-  padding: 40px;
-  justify-content: space-between;
+  justify-content:space-around;
   text-align:center
 }
-.time img{
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  border:solid 6px lightgray
-}
-section header{
-  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffH3K7khSWmWfSoDix5aWZWxzYHAgQ0qro1JTogkCCVXy4j7Y);
-  background-size:cover; 
-}
-section header .container h1{
-  text-align:center;
-  font-family: 'Roboto', sans-serif;
-  color:white;
-  font-size:40px;
-  margin-bottom:20px
-}
-.reservation{
-  display:flex;
-  background-color:white
-}
-#data h2{
-  text-align:center;
-  font-family: 'Roboto', sans-serif;
-  margin:0px
-}
-#data input{
-  width:130px;
-  height:30px;
-  text-align:center;
-  margin:15px 0px 0px 50px 
-}
-#data button{
-  border:none;
-  border-radius:5px;
-  background-color:#FF5252;
-  color:white;
+article .menu #description h2{
   text-transform:uppercase;
-  width:130px;
-  height:30px;
-  margin-left:50px
+  font-family:roboto;
+  border-bottom:solid 2px black;
+  text-align:left
 }
-#img img{
-  height:100%
-}
-.app{
-  background-color:#FF5252;
-  text-align:center;
-}
-.app h2{
-  font-family: 'Roboto', sans-serif;
-  color:white
-}
-.app button{
-  border:none;
-  border-radius:5px;
-  background-color:white;
-  color:#FF5252;
+article .menu #description p{
   text-transform:uppercase;
-  padding:10px;
-  margin-bottom:10px
+  font-family:roboto;
 }
-section article h1{
-  font-family: 'Roboto', sans-serif;
-  text-align:center;
-  text-transform:uppercase
-}
-section .price{
-  display:flex;
-}
-section #breackfast{
-  background-color:lightgrey;
-  padding:10px;
-  width:34%;
-  margin-right:10px
-}
-section #dollar{
-  position:relative;
-}
-section #dollar div{
-  color:#FF5252;
-  position:absolute;
-  right:0px;
-  bottom:0px;
-  background-color:lightgrey;
-  width:60px;
-  height:40px;
-  text-align:center;
-  font-size:30px
-}
-section #info{
- padding:15px;
- background-color:white;
+article .menu #description button{
+ background-color:#eb3b5a;
+ padding:15px 25px;
+ margin-top:100px;
+ color:white;
+ text-transform:uppercase;
+ font-family:roboto;
+ border:none;
+ border-radius:5px;
  text-align:center
 }
-section #info h4{
-  font-family: 'Roboto', sans-serif;
-  text-transform:uppercase
+article .menu #description button:hover{
+  color:black;
+  background-color:white;
+  border:solid 1px black
+}
+article #ex{
+  text-align:center;
+  margin-top:10px
+}
+article #ex img{
+  border:solid 1px gray
+}
+article #ex h4{
+  text-transform:uppercase;
+  font-family:roboto;
+  margin:0px
+}
+article #ex #price{
+  background-color:#eb3b5a;
+  color:white;
+  font-size:50px;
+}
+article section .container h1{
+  text-transform:uppercase;
+  font-family:roboto;
+  text-align:center;
+  font-size:40px;
+  color:white;
+  border-bottom:solid 2px white;
+  margin-bottom:10px
+}
+article section .gallery{
+  background-image:url(header2.png);
+  background-size:cover;
+  height:900px
+}
+article section iframe{
+  border:none;
 }
 .parent{
-  background-color:lightgrey;
   padding:10px;
   margin:20px;
   height:600px
-}
-.parent h2{
-  text-align:center;
-  font-family: 'Roboto', sans-serif;
-  text-transform:uppercase;
-  color:white;
 }
 .parent .blog1{
   display:flex;
@@ -212,49 +136,72 @@ section #info h4{
   margin:10px;
   width:40%;
   float:left;
-  margin-left:60px
+  margin-left:60px;
+  color:white
+}
+.parent #picturs img{
+  width:250px;
+  height:200px
 }
 .parent #picturs div{
-  color:#FF5252;
+  color:white;
+  font-family:roboto;
   position:absolute;
   top:0px;
   left:0px;
-  background-color:lightgrey;
+  background-color:transparent;
   width:60px;
   height:40px;
   text-align:center;
 }
-.blog1 #msg{
-  background-color:white;
+.blog1 #msg h4{
+  margin-top:0px;
+  border:solid 1px white;
+  text-align:center
 }
 .blog1 #msg h4, p{
-  margin-left:10px
+  margin-left:10px;
+  font-family:roboto
 }
-footer .email{
-  padding:10px;
-  text-align:center;
-  margin-bottom:0px;
-  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoOMSinw5T6S6PnrfyYO2TAIH-NU87tIZTkxizEM2Paz_oQgeY)
+footer #competition{
+  background-image:url(competition.png);
+  background-size:cover;
+  height:300px;
+  text-align:center
 }
-footer .email h2{
-  font-family: 'Roboto', sans-serif;
+footer #competition p{
+  color:white;
   text-transform:uppercase;
-  color:lightgrey;
+  font-family:roboto;
+  font-size:30px;
+  line-height:70px;
+  margin-top:10px;
 }
-footer .email input{
-  text-align:center;
-  padding:5px 10px
+footer #competition button{
+ background-color:#eb3b5a;
+ padding:15px 25px;
+ color:black;
+ text-transform:uppercase;
+ font-family:roboto;
+ border:none;
+ border-radius:5px
 }
-footer .email button{
-  text-align:center;;
+#competition button:hover{
   color:white;
-  padding:5px 10px;
-  background-color:transparent
+  border:solid 2px white
 }
-footer .social{
-  padding:10px;
-  background-color:gray;
-  text-align:center;
+.data{
+  text-align: center;
+  background-color:#192a56;
   color:white;
-  font-family: 'Roboto', sans-serif;
+  font-family:roboto;
+  text-transform:uppercase;
+  height:150px;
+  padding:5px
 }
+.data input{
+  padding:10px 20px;
+  text-align:center
+}
+
+
